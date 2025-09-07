@@ -3,7 +3,9 @@
     margin: 0;
 }
 
-
+:root {
+    --left-margin: 15px;
+}
 
 .nunito-heading {
   font-family: "Nunito", sans-serif;
@@ -14,14 +16,31 @@
 
 .header {
     height: 5vh;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-left: var(--left-margin);
+    font-size: 1.5em;
 }
 
 .content {
-    width: 50vw;
     display: flex;
     flex-direction: row;
+}
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: var(--left-margin);
+    padding-top: 25px;   
+}
+
+.main-text {
+    font-size: 2em;
 }
 
 .photo {
