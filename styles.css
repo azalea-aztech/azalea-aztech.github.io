@@ -94,3 +94,12 @@ a {
 .description-text {
     font-size: 1.5em;
 }
+
+.list-topic {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+ul {
+    margin-left: 20px;
+}
