@@ -64,6 +64,7 @@ a {
     width: 50vw;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: fit-content;
 }
 
 /* About me section */  
@@ -87,7 +88,7 @@ a {
 .line::after {
     content: "";
     flex: 1;
-    border-bottom: 3px solid lightblue;
+    border-bottom: 4px solid lightblue;
     margin: 0 10px;
 }
 
@@ -162,4 +163,12 @@ iframe {
     color: darkgray;
     margin-top: var(--top-margin);
     font-size: 0.75em;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
