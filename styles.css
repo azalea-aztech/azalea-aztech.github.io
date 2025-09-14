@@ -97,7 +97,7 @@ a {
 
 .list-topic {
     font-weight: 600;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 ul {
@@ -115,5 +115,9 @@ ul {
 .projects-container {
     width: 50vw;
     margin-left: var(--left-margin);
+}
+
+.project-topic {
+    margin-bottom: 15px;
 }
 
