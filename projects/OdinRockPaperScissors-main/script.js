@@ -48,9 +48,11 @@ function startGame() {
         if (humanScore === 5) {
             text.textContent = "Congratulations, You won!";
             score.textContent = `You: ${humanScore} | Computer: ${computerScore}`;
+            endGame();
         } else if (computerScore === 5) {
             text.textContent = "Bummer! The computer won. Better luck next time!";
             score.textContent = `You: ${humanScore} | Computer: ${computerScore}`;
+            endGame();
         }
     }
 
@@ -63,6 +65,21 @@ function startGame() {
     scissorsButton.addEventListener("click", function() {
         playRound("scissors", getComputerChoice());
     });
+
+    function endGame() {
+        rockButton.style.display = 'none';
+        paperButton.style.display = 'none';
+        scissorsButton.style.display = 'none';
+        const resetButton = document.createElement("button");
+        resetButton.textContent = "RESET GAME";
+        resetButton.addEventListener("click", function() {
+            buttons.removeChild(resetButton);
+            container.removeChild(text);
+            container.removeChild(score);
+            startGame();
+        });
+        buttons.appendChild(resetButton);
+    }
 }
 
 
