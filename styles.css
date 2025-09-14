@@ -138,7 +138,6 @@ li {
 .project-content {
     display: flex;
     flex-direction: row;
-    height: 75vh;
 }
 
 .project-pic {
@@ -147,7 +146,6 @@ li {
 
 .project-desc {
     width: 50vw;
-    height: 75vh;
     margin: var(--top-margin) var(--left-margin);
     font-size: 1.5em;
     display: flex;
@@ -181,5 +179,4 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
