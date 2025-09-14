@@ -117,6 +117,11 @@ li {
     margin-bottom: 5px;
 }
 
+.email {
+    text-decoration: underline solid lightblue 3px;
+    font-style: italic;
+}
+
 /* Projects section */
 
 .projects {
