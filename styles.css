@@ -126,7 +126,7 @@ ul {
 .project-content {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 75vh;
 }
 
 .project-pic {
@@ -135,7 +135,7 @@ ul {
 
 .project-desc {
     width: 50vw;
-    height: 100vh;
+    height: 75vh;
     margin: var(--top-margin) var(--left-margin);
     font-size: 1.5em;
     display: flex;
