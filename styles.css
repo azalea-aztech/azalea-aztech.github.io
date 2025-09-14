@@ -121,3 +121,45 @@ ul {
     margin-bottom: 15px;
 }
 
+/* Projects pages */
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.project-pic {
+    width: 50vw;
+}
+
+.project-desc {
+    width: 50vw;
+    height: 100vh;
+    margin: var(--top-margin) var(--left-margin);
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+.project-name {
+    justify-content: center;
+    height: 10vh;
+    font-size: 1.5em;
+}
+
+iframe {
+    margin-top: var(--top-margin);
+    border-radius: 10px;
+    align-self: center;
+}
+
+.pic-desc {
+    color: darkgray;
+    margin-top: var(--top-margin);
+    font-size: 0.75em;
+}
