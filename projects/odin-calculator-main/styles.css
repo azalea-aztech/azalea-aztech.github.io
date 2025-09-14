@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calculator {
+    max-height: 500px;
+    max-width: 260px;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    margin: 2px;
+    background-color: #e0e5ec;
+    filter: drop-shadow(10px 10px 30px #aeaec0 40%);
+    border-radius: 10px;
+
+}
+
+#input, #result {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 2px;
+    font-size: 24px;
+}

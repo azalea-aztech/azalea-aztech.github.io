@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 75px;
+    color: #102e4a;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffcef;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button {
+    padding: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+    align-self: center;
+    background-color: #102e4a;
+    color: #fff7e6;
+    font-weight: 700;
+    margin: 25px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

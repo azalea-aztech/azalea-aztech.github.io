@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.page-title {
+    font-size: 2em;
+    color: #333;
+    font-family: Georgia, serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
