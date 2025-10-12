@@ -185,3 +185,41 @@ iframe {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 480px) {
+    .header {
+        justify-content: center;
+    }
+
+    .content {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: auto;
+    }
+
+    .main-text {
+        font-size: 1.5em;
+    }
+
+    .contact {
+        padding: 10px 0;
+    }
+
+    .photo {
+        margin: 10px;
+        align-self: center;
+        width: 80vw;
+    }
+
+    .description, .projects-container {
+        width: 80vw;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+}
