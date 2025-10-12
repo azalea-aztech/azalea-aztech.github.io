@@ -194,7 +194,7 @@ iframe {
     .content {
         margin-top: 20px;
         flex-direction: column;
-        align-items: center;
+        align-content: center;
     }
 
     .hero-text {
@@ -215,11 +215,31 @@ iframe {
         width: 80vw;
     }
 
-    .description, .projects-container {
+    .description, .projects-container, .project-content, .project-desc {
         width: 80vw;
     }
 
-    .projects {
+    .projects, .project-content {
         flex-direction: column;
+    }
+
+    .project-content {
+        align-content: center;
+        justify-items: center;
+    }
+
+    iframe {
+        width: 80vw;
+    }
+
+    .project-pic {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        height: auto;
     }
 }
