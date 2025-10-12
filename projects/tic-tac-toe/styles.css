@@ -1,0 +1,104 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.syne-mono-regular {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Syne Mono", monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.nameEntryDiv {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    align-items: center;
+    font-size: larger;
+}
+
+.gameboard {
+  display: grid;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid black;
+  gap: 2px;
+  padding: 2px;
+  background-color: rgb(158, 129, 254);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  color: #212121;
+  border: 1px solid grey;
+  background: rgb(214, 202, 254);
+  cursor: pointer;
+}
+
+.normal-button,
+.normal-button:focus {
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: 2px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(50, 50, 50);
+  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+  transform: translate(0, -3px);
+  cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: linear;
+  margin: 10px;
+}
+
+.normal-button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+input {
+ border: 2px solid #212121;
+ padding: 15px;
+ border-radius: 10px;
+ background-color: #e8e8e8;
+ font-size: 17px;
+ font-weight: bold;
+ text-align: center;
+}
+
+input:focus {
+ outline-color: black;
+ background-color: #e8e8e8;
+ color: #212121;
+ box-shadow: 5px 5px rgb(214, 202, 254);
+}
