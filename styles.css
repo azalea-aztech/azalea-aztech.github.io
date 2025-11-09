@@ -8,6 +8,10 @@
     --top-margin: 30px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nunito-heading {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
