@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("./667bdd9eeecd251dcc6df46ad8a8a3a9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 4em;
+    color: antiquewhite;
+}
+
+.slogan {
+    font-size: 3em;
+    color: antiquewhite;
+}
+
+.desc {
+    font-size: 2em;
+    color: antiquewhite;
+    background-color: hsl(0 100% 5% / 50%);
+}
+
+.name {
+    font-weight: 800;
+}
+
+.itemDesc {
+    font-style: italic;
+}
+
+.menuItem {
+    line-height: 0.5;
+    margin-bottom: 50px;
+}
+
+.menu {
+    background-color: hsl(0 100% 5% / 50%);
+    width: 60%;
+    align-self: center;
+}
+
+.about {
+    align-self: center;
+    width: 60%;
+    background-color: hsl(0 100% 5% / 50%);
+    padding: 30px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: large;
+    height: 50px;
+    width: 100px;
+    margin: 20px 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+}
